@@ -1,0 +1,137 @@
+Ticker,Sector/Asset Class,YTD Performance (%),Benchmark ETF,Benchmark YTD Performance (%),Outperformance vs. Benchmark (%)
+AAPL,Technology,-1.32,XLK,-0.42,-0.9
+ACN,Technology,2.73,XLK,-0.42,3.15
+AI,Technology,-23.74,XLK,-0.42,-23.32
+AMD,Technology,-13.17,XLK,-0.42,-12.75
+AMLP,US Stocks,7.5,SPY,1.69,5.81
+AMZN,US Stocks,-2.67,SPY,1.69,-4.36
+APP,Technology,-3.15,XLK,-0.42,-2.73
+AVGO,Technology,-8.21,XLK,-0.42,-7.79
+COIN,US Stocks,-17.2,SPY,1.69,-18.89
+CRWD,Technology,13.59,XLK,-0.42,14.01
+DKNG,US Stocks,19.48,SPY,1.69,17.79
+ETH,Crypto,-32.43,BITO,-14.3,-18.13
+FLIN,US Stocks,-9.06,SPY,1.69,-10.75
+FTC,US Stocks,1.67,SPY,1.69,-0.02
+FTNT,Technology,15.06,XLK,-0.42,15.48
+GIB,Technology,2.56,XLK,-0.42,2.98
+GOOG,Communication Services,-8.36,XLC,4.35,-12.71
+IAU,Gold,9.66,GLD,9.62,0.04
+IBIT,Crypto,-13.38,BITO,-14.3,0.92
+IJH,US Stocks,-0.23,SPY,1.69,-1.92
+IJR,Small Cap Stocks,-2.22,IWM,-2.47,0.25
+ITA,US Stocks,4.34,SPY,1.69,2.65
+IVV,US Stocks,1.67,SPY,1.69,-0.02
+IYH,US Stocks,6.39,SPY,1.69,4.7
+LRCX,Technology,12.23,XLK,-0.42,12.65
+MCD,US Stocks,4.02,SPY,1.69,2.33
+MSFT,Technology,-4.31,XLK,-0.42,-3.89
+MU,Technology,11.89,XLK,-0.42,12.31
+NVDA,Technology,-5.08,XLK,-0.42,-4.66
+NXPI,Technology,11.24,XLK,-0.42,11.66
+PEP,US Stocks,0.87,SPY,1.69,-0.82
+PLTR,Technology,18.78,XLK,-0.42,19.2
+PYLD,US Stocks,2.28,SPY,1.69,0.59
+QQQ,US Stocks,0.85,SPY,1.69,-0.84
+RELX,Industrials,6.42,XLI,2.82,3.6
+RSP,US Stocks,2.89,SPY,1.69,1.2
+SMCI,Technology,70.08,XLK,-0.42,70.5
+SOUN,Technology,-52.53,XLK,-0.42,-52.11
+SOXX,US Stocks,0.52,SPY,1.69,-1.17
+SPEU,US Stocks,11.8,SPY,1.69,10.11
+SWKS,Technology,-23.71,XLK,-0.42,-23.29
+TSM,Technology,-3.45,XLK,-0.42,-3.03
+VB,US Stocks,-0.59,SPY,1.69,-2.28
+VCR,US Stocks,-3.47,SPY,1.69,-5.16
+VDC,US Stocks,5.44,SPY,1.69,3.75
+VGT,US Stocks,-1.75,SPY,1.69,-3.44
+VIG,US Stocks,3.43,SPY,1.69,1.74
+VIS,US Stocks,1.7,SPY,1.69,0.01
+VOO,US Stocks,1.73,SPY,1.69,0.04
+VRT,Industrials,-16.64,XLI,2.82,-19.46
+XLV,US Stocks,7.42,SPY,1.69,5.73
+MBXIX,US Stocks,-1.05,SPY,1.69,-2.74
+VCOBX,US Stocks,2.39,SPY,1.69,0.7
+EQIX,Real Estate,-3.6,VNQ,5.04,-8.64
+ASML,Technology,6.64,XLK,-0.42,7.06
+CLIP,US Stocks,0.64,SPY,1.69,-1.05
+FTEC,US Stocks,-1.79,SPY,1.69,-3.48
+FVD,US Stocks,3.5,SPY,1.69,1.81
+IWM,Small Cap Stocks,-2.47,IWM,-2.47,0.0
+REGL,US Stocks,2.58,SPY,1.69,0.89
+SDY,US Stocks,4.18,SPY,1.69,2.49
+SMH,US Stocks,-0.4,SPY,1.69,-2.09
+VHT,US Stocks,6.45,SPY,1.69,4.76
+AMAT,Technology,3.07,XLK,-0.42,3.49
+BKNG,US Stocks,2.22,SPY,1.69,0.53
+COST,US Stocks,13.55,SPY,1.69,11.86
+CSCO,Technology,9.17,XLK,-0.42,9.59
+CVX,Energy,6.92,XLE,2.85,4.07
+GOOGL,Communication Services,-8.82,XLC,4.35,-13.17
+HD,US Stocks,0.52,SPY,1.69,-1.17
+HON,Industrials,-6.29,XLI,2.82,-9.11
+IEI,US Stocks,1.87,SPY,1.69,0.18
+IWO,US Stocks,-3.29,SPY,1.69,-4.98
+IYW,US Stocks,-1.02,SPY,1.69,-2.71
+PG,US Stocks,3.83,SPY,1.69,2.14
+RTX,Industrials,10.3,XLI,2.82,7.48
+SCHW,US Stocks,6.94,SPY,1.69,5.25
+SHLD,US Stocks,12.65,SPY,1.69,10.96
+SHV,US Stocks,0.61,SPY,1.69,-1.08
+UNP,Industrials,7.14,XLI,2.82,4.32
+VEA,US Stocks,8.21,SPY,1.69,6.52
+GTSOX,US Stocks,1.68,SPY,1.69,-0.01
+HNVRX,US Stocks,-2.43,SPY,1.69,-4.12
+POLIX,US Stocks,2.29,SPY,1.69,0.6
+PRILX,US Stocks,2.62,SPY,1.69,0.93
+WCMIX,US Stocks,9.46,SPY,1.69,7.77
+EOG,Energy,4.85,XLE,2.85,2.0
+IBB,US Stocks,3.11,SPY,1.69,1.42
+IEF,US Stocks,2.93,SPY,1.69,1.24
+IXJ,US Stocks,7.72,SPY,1.69,6.03
+IYE,US Stocks,2.12,SPY,1.69,0.43
+MA,US Stocks,7.6,SPY,1.69,5.91
+META,Communication Services,12.43,XLC,4.35,8.08
+SO,Utilities,9.06,XLU,4.63,4.43
+V,US Stocks,11.71,SPY,1.69,10.02
+WMT,US Stocks,6.89,SPY,1.69,5.2
+ADP,Technology,7.5,XLK,-0.42,7.92
+COWZ,US Stocks,1.63,SPY,1.69,-0.06
+DUK,Utilities,8.87,XLU,4.63,4.24
+FDIS,US Stocks,-3.16,SPY,1.69,-4.85
+GLD,Gold,9.62,GLD,9.62,0.0
+IWR,US Stocks,1.26,SPY,1.69,-0.43
+KXI,US Stocks,6.0,SPY,1.69,4.31
+LLY,Healthcare,17.8,XLV,7.42,10.38
+LSCC,Technology,15.07,XLK,-0.42,15.49
+MRVL,Technology,-16.39,XLK,-0.42,-15.97
+MUB,US Stocks,1.12,SPY,1.69,-0.57
+NEE,Utilities,-0.84,XLU,4.63,-5.47
+NVO,Healthcare,2.32,XLV,7.42,-5.1
+PAVE,US Stocks,-0.17,SPY,1.69,-1.86
+PHO,US Stocks,2.49,SPY,1.69,0.8
+PTLC,US Stocks,1.59,SPY,1.69,-0.1
+SHY,US Stocks,0.92,SPY,1.69,-0.77
+SPY,US Stocks,1.69,SPY,1.69,0.0
+TYO,US Stocks,-6.32,SPY,1.69,-8.01
+FMOXX,US Stocks,,SPY,1.69,
+DLR,Real Estate,-9.95,VNQ,5.04,-14.99
+CGW,US Stocks,3.36,SPY,1.69,1.67
+PPA,US Stocks,0.66,SPY,1.69,-1.03
+SONY,Technology,20.72,XLK,-0.42,21.14
+EEM,US Stocks,6.99,SPY,1.69,5.3
+GEHC,Healthcare,15.78,XLV,7.42,8.36
+IXN,US Stocks,0.26,SPY,1.69,-1.43
+LMT,Industrials,-8.45,XLI,2.82,-11.27
+PANW,Technology,4.87,XLK,-0.42,5.29
+QCOM,Technology,5.51,XLK,-0.42,5.93
+SNOW,Technology,5.51,XLK,-0.42,5.93
+UL,US Stocks,-0.9,SPY,1.69,-2.59
+VPU,US Stocks,4.93,SPY,1.69,3.24
+XLI,US Stocks,2.82,SPY,1.69,1.13
+DELL,Technology,-0.36,XLK,-0.42,0.06
+INTC,Technology,16.32,XLK,-0.42,16.74
+MINO,US Stocks,1.48,SPY,1.69,-0.21
+NFLX,Communication Services,11.65,XLC,4.35,7.3
+PENG,Technology,7.71,XLK,-0.42,8.13
+SYM,Industrials,-4.01,XLI,2.82,-6.83
