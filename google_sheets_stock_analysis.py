@@ -1,12 +1,12 @@
-import gspread
+
 import pandas as pd
 import yfinance as yf
 import datetime
+import time
 
 # === Step 1: Connect to Public Google Sheets (No Authentication) ===
 google_sheet_url = "https://docs.google.com/spreadsheets/d/1wxzhusybeXYntIjb0fyREViSu1-GcnOpUOG2yxkp7kQ/export?format=csv"
 df = pd.read_csv(google_sheet_url)  # Read Google Sheet as CSV
-
 tickers = df.iloc[:, 0].dropna().tolist()  # Get tickers from first column
 
 # === Mapping Asset Classes to Benchmark ETFs ===
@@ -31,81 +31,60 @@ asset_class_benchmark = {
     "International Stocks": "ACWI"
 }
 
-# === Function to Get YTD Performance (Fixed) ===
-import time
-
-# === Function to Get YTD Performance (Fixed) ===
+# === Function to Get YTD Performance ===
 def get_ytd_performance(ticker):
     try:
-        time.sleep(2)  # Add delay to prevent rate limiting
+        time.sleep(2)  # Prevent rate limiting
         stock = yf.Ticker(ticker)
-        hist = stock.history(period="1y")  # Use "1y" to get data for the last year
+        hist = stock.history(period="1y")
 
         if hist.empty:
-            print(f"Error fetching data for {ticker}: No data available")
+            print(f"⚠️ No data for {ticker}")
             return None
 
-        # Filter data to only include this year
+        # Filter to only include this year's data
         this_year = datetime.datetime.now().year
         hist = hist[hist.index.year == this_year]
 
         if hist.empty:
-            print(f"Error: No data available for {ticker} in {this_year}")
+            print(f"⚠️ No data available for {ticker} in {this_year}")
             return None
 
-        first_price = hist["Close"].iloc[0]  # First closing price of this year
-        current_price = hist["Close"].iloc[-1]  # Latest closing price
+        first_price = hist["Close"].iloc[0]
+        current_price = hist["Close"].iloc[-1]
 
-        ytd_return = ((current_price - first_price) / first_price) * 100
-        return round(ytd_return, 2)
+        return round(((current_price - first_price) / first_price) * 100, 2)
     except Exception as e:
-        print(f"Error fetching data for {ticker}: {e}")
+        print(f"⚠️ Error fetching data for {ticker}: {e}")
         return None
-
-# === Function to Get Stock Sector (With Delay) ===
-def get_stock_sector(ticker):
-    try:
-        time.sleep(2)  # Add delay to prevent rate limiting
-        stock = yf.Ticker(ticker)
-        return stock.info.get("sector", "Unknown")
-    except Exception as e:
-        print(f"Error fetching sector for {ticker}: {e}")
-        return "Unknown"
 
 # === Function to Get Stock Sector ===
 def get_stock_sector(ticker):
     try:
+        time.sleep(2)  # Prevent rate limiting
         stock = yf.Ticker(ticker)
         return stock.info.get("sector", "Unknown")
     except Exception as e:
-        print(f"Error fetching sector for {ticker}: {e}")
+        print(f"⚠️ Error fetching sector for {ticker}: {e}")
         return "Unknown"
 
 # === Function to Get Asset Class Benchmark ===
 def get_asset_class(ticker, sector):
-    """Determine the best benchmark ETF based on sector or asset class."""
     if sector in asset_class_benchmark:
-        return sector, asset_class_benchmark[sector]  # Use sector ETF if available
+        return sector, asset_class_benchmark[sector]
 
     # Manual classification for missing sectors
-    crypto_tickers = ["BTC", "ETH", "IBIT"]
-    bond_tickers = ["BND", "AGG", "LQD"]
-    gold_tickers = ["GLD", "IAU"]
-    reit_tickers = ["VNQ", "IYR"]
-    small_cap_tickers = ["IWM", "IJR"]
-    international_tickers = ["ACWI", "VEU"]
-
-    if ticker in crypto_tickers:
+    if ticker in ["BTC", "ETH", "IBIT"]:
         return "Crypto", "BITO"
-    elif ticker in bond_tickers:
+    elif ticker in ["BND", "AGG", "LQD"]:
         return "Bonds", "BND"
-    elif ticker in gold_tickers:
+    elif ticker in ["GLD", "IAU"]:
         return "Gold", "GLD"
-    elif ticker in reit_tickers:
+    elif ticker in ["VNQ", "IYR"]:
         return "Real Estate", "VNQ"
-    elif ticker in small_cap_tickers:
+    elif ticker in ["IWM", "IJR"]:
         return "Small Cap Stocks", "IWM"
-    elif ticker in international_tickers:
+    elif ticker in ["ACWI", "VEU"]:
         return "International Stocks", "ACWI"
     else:
         return "US Stocks", "SPY"  # Default to S&P 500
@@ -116,8 +95,7 @@ data = [["Ticker", "Sector/Asset Class", "YTD Performance (%)", "Benchmark ETF",
 for ticker in tickers:
     ytd_return = get_ytd_performance(ticker)
     sector = get_stock_sector(ticker)
-
-    # Get the best available benchmark (sector ETF or asset class benchmark)
+    
     sector, benchmark_etf = get_asset_class(ticker, sector)
     benchmark_ytd_return = get_ytd_performance(benchmark_etf)
 
@@ -127,22 +105,9 @@ for ticker in tickers:
 
     data.append([ticker, sector, ytd_return, benchmark_etf, benchmark_ytd_return, outperformance])
 
-import gspread # Keep only one import at the top
+# === Step 6: Save Data as CSV for GitHub Upload ===
+df_results = pd.DataFrame(data[1:], columns=data[0])  # Convert list to DataFrame
+csv_filename = "portfolio_analysis_results.csv"
+df_results.to_csv(csv_filename, index=False)
 
-
-
-# === Step 6: Upload Data to Google Sheets (No Authentication Required) ===
-import gspread
-
-gc = gspread.Client(None)  # No API authentication needed
-spreadsheet = gc.open_by_url("https://docs.google.com/spreadsheets/d/1wxzhusybeXYntIjb0fyREViSu1-GcnOpUOG2yxkp7kQ")
-worksheet = spreadsheet.sheet1  # Get the first sheet
-
-# Convert DataFrame to a list of lists and upload
-worksheet.update("A1", [df_results.columns.tolist()] + df_results.values.tolist())
-
-print("✅ Google Sheet updated successfully!")
-
-
-
-
+print(f"✅ Data saved as {csv_filename}. Now push it to GitHub!")
