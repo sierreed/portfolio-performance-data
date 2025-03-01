@@ -79,9 +79,14 @@ except Exception as e:
 print("📤 Pushing updated data to GitHub...")
 
 try:
-    os.system("git add expanded_portfolio_analysis_results.csv gpt_stock_analysis.txt")
+    repo_path = r"C:\Users\14016\Documents"  # Ensure this is your correct repo location
+    os.chdir(repo_path)  # Move to repo directory
+
+    os.system("git add .")  # Add all changes
     os.system('git commit -m "Auto-update portfolio data and GPT analysis"')
     os.system("git push origin main")
+
     print("✅ Data successfully pushed to GitHub!")
 except Exception as e:
     print(f"❌ Error pushing to GitHub: {e}")
+

@@ -1,113 +1,135 @@
-
 import pandas as pd
 import yfinance as yf
 import datetime
 import time
 
-# === Step 1: Connect to Public Google Sheets (No Authentication) ===
+# === Step 1: Connect to Public Google Sheets ===
 google_sheet_url = "https://docs.google.com/spreadsheets/d/1wxzhusybeXYntIjb0fyREViSu1-GcnOpUOG2yxkp7kQ/export?format=csv"
-df = pd.read_csv(google_sheet_url)  # Read Google Sheet as CSV
-tickers = df.iloc[:, 0].dropna().tolist()  # Get tickers from first column
+df = pd.read_csv(google_sheet_url)
 
-# === Mapping Asset Classes to Benchmark ETFs ===
-asset_class_benchmark = {
-    "Technology": "XLK",
-    "Consumer Discretionary": "XLY",
-    "Consumer Staples": "XLP",
-    "Healthcare": "XLV",
-    "Financials": "XLF",
-    "Industrials": "XLI",
-    "Materials": "XLB",
-    "Real Estate": "XLRE",
-    "Utilities": "XLU",
-    "Energy": "XLE",
-    "Communication Services": "XLC",
-    "US Stocks": "SPY",
-    "Small Cap Stocks": "IWM",
-    "Crypto": "BITO",
-    "Bonds": "BND",
-    "Gold": "GLD",
-    "Real Estate": "VNQ",
-    "International Stocks": "ACWI"
-}
+tickers = df.iloc[:, 0].dropna().tolist()
 
-# === Function to Get YTD Performance ===
-def get_ytd_performance(ticker):
+# === Function to Fetch Stock Data ===
+def get_stock_data(ticker):
     try:
         time.sleep(2)  # Prevent rate limiting
         stock = yf.Ticker(ticker)
-        hist = stock.history(period="1y")
+        stock_info = stock.info
 
+        # Extract company details
+        company_name = stock_info.get("shortName", "N/A")
+        sector = stock_info.get("sector", "N/A")
+        industry = stock_info.get("industry", "Unknown")
+        market_cap = stock_info.get("marketCap", "N/A")
+        pe_ratio = stock_info.get("trailingPE", "N/A")
+        eps = stock_info.get("trailingEps", "N/A")
+        dividend_yield = stock_info.get("dividendYield", "N/A")
+        fifty_two_week_high = stock_info.get("fiftyTwoWeekHigh", "N/A")
+        fifty_two_week_low = stock_info.get("fiftyTwoWeekLow", "N/A")
+        beta = stock_info.get("beta", "N/A")
+        volume = stock_info.get("volume", "N/A")
+        revenue_ttm = stock_info.get("totalRevenue", "N/A")
+        net_income_ttm = stock_info.get("netIncomeToCommon", "N/A")
+        debt_to_equity = stock_info.get("debtToEquity", "N/A")
+        roa = stock_info.get("returnOnAssets", "N/A")
+        roe = stock_info.get("returnOnEquity", "N/A")
+
+        # Get historical performance
+        hist = stock.history(period="5y")
+        
         if hist.empty:
-            print(f"⚠️ No data for {ticker}")
-            return None
+            ytd_return = one_year_return = five_year_return = "N/A"
+        else:
+            this_year = datetime.datetime.now().year
+            hist["Year"] = hist.index.year
+            
+            hist_ytd = hist[hist["Year"] == this_year]
+            first_price = hist_ytd["Close"].iloc[0] if not hist_ytd.empty else None
+            current_price = hist["Close"].iloc[-1]
+            
+            ytd_return = ((current_price - first_price) / first_price) * 100 if first_price else "N/A"
+            one_year_return = ((current_price - hist["Close"].iloc[-252]) / hist["Close"].iloc[-252]) * 100 if len(hist) > 252 else "N/A"
+            five_year_return = ((current_price - hist["Close"].iloc[0]) / hist["Close"].iloc[0]) * 100 if len(hist) > 1250 else "N/A"
 
-        # Filter to only include this year's data
-        this_year = datetime.datetime.now().year
-        hist = hist[hist.index.year == this_year]
+        # Get recent news
+        news = stock.news if hasattr(stock, "news") else []
+        latest_news = []
+        if news:
+            for n in news[:5]:
+                title = n.get("title", "No Title Available")  # Handle missing title
+                link = n.get("link", "No Link Available")    # Handle missing link
+                latest_news.append((title, link))
+        latest_news = latest_news if latest_news else "No Recent News"
 
-        if hist.empty:
-            print(f"⚠️ No data available for {ticker} in {this_year}")
-            return None
+        return {
+            "Ticker": ticker,
+            "Company Name": company_name,
+            "Sector": sector,
+            "Industry": industry,
+            "Market Cap": market_cap,
+            "PE Ratio": pe_ratio,
+            "EPS": eps,
+            "Dividend Yield": dividend_yield,
+            "52W High": fifty_two_week_high,
+            "52W Low": fifty_two_week_low,
+            "Beta": beta,
+            "YTD Performance (%)": round(ytd_return, 2) if isinstance(ytd_return, float) else ytd_return,
+            "1Y Performance (%)": round(one_year_return, 2) if isinstance(one_year_return, float) else one_year_return,
+            "5Y Performance (%)": round(five_year_return, 2) if isinstance(five_year_return, float) else five_year_return,
+            "Volume": volume,
+            "Revenue (TTM)": revenue_ttm,
+            "Net Income (TTM)": net_income_ttm,
+            "Debt-to-Equity Ratio": debt_to_equity,
+            "ROA": roa,
+            "ROE": roe,
+            "Latest News": latest_news
+        }
 
-        first_price = hist["Close"].iloc[0]
-        current_price = hist["Close"].iloc[-1]
-
-        return round(((current_price - first_price) / first_price) * 100, 2)
     except Exception as e:
-        print(f"⚠️ Error fetching data for {ticker}: {e}")
-        return None
+        print(f"Error fetching data for {ticker}: {e}")
+        return {
+            "Ticker": ticker,
+            "Company Name": "Error",
+            "Sector": "Error",
+            "Industry": "Error",
+            "Market Cap": "Error",
+            "PE Ratio": "Error",
+            "EPS": "Error",
+            "Dividend Yield": "Error",
+            "52W High": "Error",
+            "52W Low": "Error",
+            "Beta": "Error",
+            "YTD Performance (%)": "Error",
+            "1Y Performance (%)": "Error",
+            "5Y Performance (%)": "Error",
+            "Volume": "Error",
+            "Revenue (TTM)": "Error",
+            "Net Income (TTM)": "Error",
+            "Debt-to-Equity Ratio": "Error",
+            "ROA": "Error",
+            "ROE": "Error",
+            "Latest News": "Error"
+        }
 
-# === Function to Get Stock Sector ===
-def get_stock_sector(ticker):
-    try:
-        time.sleep(2)  # Prevent rate limiting
-        stock = yf.Ticker(ticker)
-        return stock.info.get("sector", "Unknown")
-    except Exception as e:
-        print(f"⚠️ Error fetching sector for {ticker}: {e}")
-        return "Unknown"
-
-# === Function to Get Asset Class Benchmark ===
-def get_asset_class(ticker, sector):
-    if sector in asset_class_benchmark:
-        return sector, asset_class_benchmark[sector]
-
-    # Manual classification for missing sectors
-    if ticker in ["BTC", "ETH", "IBIT"]:
-        return "Crypto", "BITO"
-    elif ticker in ["BND", "AGG", "LQD"]:
-        return "Bonds", "BND"
-    elif ticker in ["GLD", "IAU"]:
-        return "Gold", "GLD"
-    elif ticker in ["VNQ", "IYR"]:
-        return "Real Estate", "VNQ"
-    elif ticker in ["IWM", "IJR"]:
-        return "Small Cap Stocks", "IWM"
-    elif ticker in ["ACWI", "VEU"]:
-        return "International Stocks", "ACWI"
-    else:
-        return "US Stocks", "SPY"  # Default to S&P 500
-
-# === Step 5: Analyze Portfolio & Save Data ===
-data = [["Ticker", "Sector/Asset Class", "YTD Performance (%)", "Benchmark ETF", "Benchmark YTD Performance (%)", "Outperformance vs. Benchmark (%)"]]
-
+# === Step 2: Fetch Data for All Tickers ===
+data = []
 for ticker in tickers:
-    ytd_return = get_ytd_performance(ticker)
-    sector = get_stock_sector(ticker)
-    
-    sector, benchmark_etf = get_asset_class(ticker, sector)
-    benchmark_ytd_return = get_ytd_performance(benchmark_etf)
+    stock_data = get_stock_data(ticker)
+    data.append(stock_data)
 
-    outperformance = None
-    if ytd_return is not None and benchmark_ytd_return is not None:
-        outperformance = round(ytd_return - benchmark_ytd_return, 2)
+import os
 
-    data.append([ticker, sector, ytd_return, benchmark_etf, benchmark_ytd_return, outperformance])
-
-# === Step 6: Save Data as CSV for GitHub Upload ===
-df_results = pd.DataFrame(data[1:], columns=data[0])  # Convert list to DataFrame
-csv_filename = "portfolio_analysis_results.csv"
+# === Step 3: Save Data to CSV ===
+df_results = pd.DataFrame(data)
+csv_filename = "expanded_portfolio_analysis_results.csv"
 df_results.to_csv(csv_filename, index=False)
 
-print(f"✅ Data saved as {csv_filename}. Now push it to GitHub!")
+print(f"✅ Data saved as {csv_filename}. Now pushing to GitHub...")
+
+# Automate Git Commit & Push
+os.system('git add expanded_portfolio_analysis_results.csv')
+os.system('git commit -m "Auto-update portfolio analysis results"')
+os.system('git push origin main')
+
+print("🚀 Data successfully pushed to GitHub!")
+
