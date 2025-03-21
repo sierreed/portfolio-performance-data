@@ -1,137 +1,137 @@
 Ticker,Company Name,Sector,Industry,Market Cap,PE Ratio,EPS,Dividend Yield,52W High,52W Low,Beta,YTD Performance (%),1Y Performance (%),5Y Performance (%),Volume,Revenue (TTM),Net Income (TTM),Debt-to-Equity Ratio,ROA,ROE,Latest News,News Link
-AAPL,Apple Inc.,Technology,Consumer Electronics,3207068385280,33.887302,6.3,0.47,260.1,164.08,1.178,0.22893167,0.22893167,N/A,60107582,395760009216,96150003712,145.0,0.22518998,1.3652,No Recent News,No Link Available
-ACN,Accenture plc,Technology,Information Technology Services,199415545856,26.746645,11.92,1.86,398.35,278.69,1.239,-0.14449781,-0.14449781,N/A,4085894,66361704448,7570236928,27.062,0.1146,0.2683,No Recent News,No Link Available
-AI,"C3.ai, Inc.",Technology,Software - Application,2868489984,N/A,-2.23,N/A,45.08,18.85,2.02,-0.25611013,-0.25611013,N/A,4095621,366923008,-281927008,0.522,-0.18744,-0.3207,No Recent News,No Link Available
-AMD,"Advanced Micro Devices, Inc.",Technology,Semiconductors,163619864576,100.97,1.0,N/A,193.5,94.73,1.736,-0.4703908,-0.4703908,N/A,24715265,25784999936,1640999936,4.032,0.019019999,0.02893,No Recent News,No Link Available
-AMLP,Alerian MLP ETF,N/A,N/A,N/A,14.01327,N/A,7.31,53.24,44.21,N/A,N/A,N/A,0.305179,1182726,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-AMZN,"Amazon.com, Inc.",Consumer Cyclical,Internet Retail,2097814568960,35.860508,5.52,N/A,242.52,151.61,1.192,0.13451397,0.13451397,N/A,38096663,637959012352,59248001024,54.342,0.07438,0.24290001,No Recent News,No Link Available
-APP,Applovin Corporation,Technology,Software - Application,99570311168,64.51322,4.54,N/A,525.15,60.67,2.33,3.2977257,3.2977257,N/A,10061754,4709248000,1577058944,326.33,0.20865999,1.3467,No Recent News,No Link Available
-AVGO,Broadcom Inc.,Technology,Semiconductors,919419289600,90.94883,2.15,1.21,251.88,119.756,1.03,0.5804533,0.5804533,N/A,25900939,54528999424,10396999680,166.032,0.069759995,0.14845,No Recent News,No Link Available
-COIN,"Coinbase Global, Inc.",Financial Services,Financial Data & Stock Exchanges,46490320896,19.2961,9.49,N/A,349.75,146.12,3.664,-0.23579001,-0.23579001,N/A,9454350,6293245952,2577754880,45.049,0.06825,0.31151,No Recent News,No Link Available
-CRWD,"CrowdStrike Holdings, Inc.",Technology,Software - Infrastructure,87681351680,N/A,-0.07,N/A,455.59,200.81,1.193,0.10177231,0.10177231,N/A,4365504,3953624064,-19271000,23.77,-0.0046900003,-0.00587,No Recent News,No Link Available
-DKNG,DraftKings Inc.,Consumer Cyclical,Gambling,18554632192,N/A,-1.05,N/A,53.61,28.69,2.069,-0.12982535,-0.12982535,N/A,8750092,4767698944,-507284992,132.104,-0.0885,-0.54814,No Recent News,No Link Available
-ETH,Grayscale Ethereum Mini Trust (,N/A,N/A,N/A,N/A,N/A,N/A,38.775,2.38,N/A,N/A,N/A,N/A,1144752,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-FLIN,Franklin FTSE India ETF,N/A,N/A,N/A,22.724453,N/A,1.76,42.488,33.86,N/A,N/A,N/A,0.1509821,660864,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-FTC,First Trust Large Cap Growth Al,N/A,N/A,N/A,25.591198,N/A,0.32,149.16,113.13,N/A,N/A,N/A,0.16765471,43030,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-FTNT,"Fortinet, Inc.",Technology,Software - Infrastructure,74013745152,42.588497,2.26,N/A,114.82,54.57,0.968,0.4248705,0.4248705,N/A,3973295,5955800064,1745200000,71.857,0.13209,3.38742,No Recent News,No Link Available
-GIB,CGI Inc.,Technology,Information Technology Services,23007823872,19.576044,5.26,0.41,122.79,96.92,0.843,-0.110871255,-0.110871255,N/A,210351,14858427392,1741499008,34.494,0.091520004,0.18866,No Recent News,No Link Available
-GOOG,Alphabet Inc.,Communication Services,Internet Content & Information,2029023264768,20.82236,8.05,0.48,208.7,147.01,1.025,0.12890625,0.12890625,N/A,18611094,350018011136,100118003712,8.655,0.1674,0.32908002,No Recent News,No Link Available
-IAU,iShares Gold Trust Shares of th,N/A,N/A,54609743872,N/A,N/A,0.0,56.53,40.64,N/A,N/A,N/A,0.14105779,5266437,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-IBIT,iShares Bitcoin Trust ETF,N/A,N/A,N/A,N/A,N/A,0.0,61.75,28.23,N/A,N/A,N/A,N/A,43770196,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-IJH,iShares Core S&P Mid-Cap ETF,N/A,N/A,15083639808,18.422073,N/A,1.34,68.33,56.01,N/A,N/A,N/A,0.1544874,9367976,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-IJR,iShares Core S&P Small-Cap ETF,N/A,N/A,59403751424,15.907968,N/A,2.12,128.61,101.85,N/A,N/A,N/A,0.13849,5555118,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-ITA,iShares U.S. Aerospace & Defens,N/A,N/A,N/A,30.311916,N/A,0.79,159.58,126.52,N/A,N/A,N/A,0.1510591,327516,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-IVV,iShares Core S&P 500 ETF,N/A,N/A,351523831808,24.948254,N/A,1.28,616.22,496.3,N/A,N/A,N/A,0.17626761,7359973,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-IYH,iShares U.S. Healthcare ETF,N/A,N/A,666489984,28.833212,N/A,1.16,66.59,57.38,N/A,N/A,N/A,0.10935701,211066,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-LRCX,Lam Research Corporation,Technology,Semiconductor Equipment & Materials,101011210240,23.917934,3.29,1.17,113.0,68.87,1.541,-0.14955473,-0.14955473,N/A,11862048,16209088512,4293570048,56.565,0.15589,0.50422,No Recent News,No Link Available
-MCD,McDonald's Corporation,Consumer Cyclical,Restaurants,214216835072,26.323967,11.39,2.36,326.32,243.53,0.706,0.07627976,0.07627976,N/A,2268614,25920000000,8223000064,N/A,0.13307,N/A,No Recent News,No Link Available
-MSFT,Microsoft Corporation,Technology,Software - Infrastructure,2888547172352,31.335485,12.4,0.85,468.35,376.91,0.914,-0.06891596,-0.06891596,N/A,19952846,261802000384,92749996032,33.998,0.14649001,0.34291,No Recent News,No Link Available
-MU,"Micron Technology, Inc.",Technology,Semiconductors,112297197568,28.879656,3.49,0.46,157.54,83.54,1.228,0.07474947,0.07474947,N/A,24623572,29094000640,3881999872,30.863,0.04204,0.086569995,No Recent News,No Link Available
-NVDA,NVIDIA Corporation,Technology,Semiconductors,2968747769856,41.384354,2.94,0.03,153.13,75.606,1.765,0.37550163,0.37550163,N/A,277593455,130497003520,72879996928,12.946,0.57417,1.1917701,No Recent News,No Link Available
-NXPI,NXP Semiconductors N.V.,Technology,Semiconductors,52286300160,21.18808,9.73,1.97,296.08,198.21,1.476,-0.12872958,-0.12872958,N/A,2771741,12613999616,2510000128,116.945,0.09043,0.27493998,No Recent News,No Link Available
-PEP,"Pepsico, Inc.",Consumer Defensive,Beverages - Non-Alcoholic,203791187968,21.379856,6.95,3.65,183.41,141.51,0.53,-0.13237184,-0.13237184,N/A,5277544,91853996032,9578000384,262.787,0.08989,0.52304,No Recent News,No Link Available
-PLTR,Palantir Technologies Inc.,Technology,Software - Infrastructure,202263822336,453.89474,0.19,N/A,125.41,20.33,2.806,2.5933332,2.5933332,N/A,113985021,2865507072,462190016,4.696,0.035720002,0.10812,No Recent News,No Link Available
-PYLD,PIMCO U.S. Treasury Index Fund ,N/A,N/A,N/A,N/A,N/A,5.89,26.7,25.11,N/A,N/A,N/A,N/A,1732413,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-QQQ,"Invesco QQQ Trust, Series 1",N/A,N/A,188554346496,30.741322,N/A,0.56,540.81,413.07,N/A,N/A,N/A,0.208251,43563010,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-RELX,RELX PLC PLC,Industrials,Specialty Business Services,90420191232,36.514923,1.34,1.63,51.99,40.25,0.482,0.13263893,0.13263893,N/A,927757,9434000384,1934000000,186.758,0.117180005,0.55999,No Recent News,No Link Available
-RSP,Invesco S&P 500 Equal Weight ET,N/A,N/A,26857779200,20.931932,N/A,1.48,188.16,158.83,N/A,N/A,N/A,0.1579952,7118634,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-SMCI,"Super Micro Computer, Inc.",Technology,Computer Hardware,25027094528,18.334782,2.3,N/A,114.779,17.25,1.203,-0.5785866,-0.5785866,N/A,57205565,20819873792,1444626048,31.382,0.12758,0.31015,No Recent News,No Link Available
-SOUN,"SoundHound AI, Inc.",Technology,Software - Application,4125266944,N/A,-1.04,N/A,24.98,3.5,2.843,0.25485432,0.25485432,N/A,41929462,84693000,-351096992,2.391,-0.19818,-3.32681,No Recent News,No Link Available
-SOXX,iShares Semiconductor ETF,N/A,N/A,1538567936,28.736834,N/A,0.69,267.24,189.11,N/A,N/A,N/A,0.2471475,3696844,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-SPEU,SPDR Portfolio Europe ETF,N/A,N/A,N/A,17.73397,N/A,2.99,46.1,39.26,N/A,N/A,N/A,0.14015469,1657605,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-SWKS,"Skyworks Solutions, Inc.",Technology,Semiconductors,11155425280,21.353848,3.25,4.03,120.86,62.01,1.178,-0.32680184,-0.32680184,N/A,2866197,4044999936,526700000,18.639,0.05251,0.08342,No Recent News,No Link Available
-TSM,Taiwan Semiconductor Manufactur,Technology,Semiconductors,902926434304,25.303778,6.88,1.57,226.4,125.78,1.255,0.2740779,0.2740779,N/A,11322944,2894307786752,1173267677184,24.288,0.1353,0.30036,No Recent News,No Link Available
-VB,Vanguard Small-Cap ETF,N/A,N/A,197602836480,17.729319,N/A,1.32,263.35,209.81,N/A,N/A,N/A,0.1433499,771963,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-VCR,Vanguard Consumer Discretion ET,N/A,N/A,N/A,23.91558,N/A,0.78,402.25,284.84,N/A,N/A,N/A,0.1766645,49780,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-VDC,Vanguard Consumer Staples ETF,N/A,N/A,N/A,24.237309,N/A,2.19,226.64,194.38,N/A,N/A,N/A,0.1113567,86649,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-VGT,Vanguard Information Tech ETF,N/A,N/A,N/A,33.61776,N/A,0.62,648.76,478.25,N/A,N/A,N/A,0.21597931,620391,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-VIG,Vanguard Div Appreciation ETF,N/A,N/A,N/A,24.179657,N/A,1.66,205.24,173.17,N/A,N/A,N/A,0.1454171,915146,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-VIS,Vanguard Industrials ETF,N/A,N/A,6073939968,24.284502,N/A,1.2,280.63,228.59,N/A,N/A,N/A,0.1773373,56472,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-VOO,Vanguard S&P 500 ETF,N/A,N/A,N/A,25.261326,N/A,1.23,563.92,453.9,N/A,N/A,N/A,0.1757743,6085499,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-VRT,"Vertiv Holdings, LLC",Industrials,Electrical Equipment & Parts,33298860032,68.32031,1.28,0.17,155.84,62.4,1.709,0.13365304,0.13365304,N/A,7343804,8011800064,495800000,129.208,0.10102,0.22287,No Recent News,No Link Available
-XLV,SPDR Select Sector Fund - Healt,N/A,N/A,28611356672,29.248234,N/A,1.54,159.64,135.95,N/A,N/A,N/A,0.1160387,6709167,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+AAPL,Apple Inc.,Technology,Consumer Electronics,3215480586240,34.03021,6.29,0.47,260.1,164.08,1.178,0.24274433,0.24274433,N/A,22595726,395760009216,96150003712,145.0,0.22518998,1.3652,No Recent News,No Link Available
+ACN,Accenture plc,Technology,Information Technology Services,186699382784,24.568836,12.13,1.97,398.35,278.69,1.239,-0.10841483,-0.10841483,N/A,1638011,67221491712,7683452928,26.706,0.11576,0.26965,No Recent News,No Link Available
+AI,"C3.ai, Inc.",Technology,Software - Application,2977335808,N/A,-2.23,N/A,45.08,18.85,2.02,-0.19554275,-0.19554275,N/A,756224,366923008,-281927008,0.522,-0.18744,-0.3207,No Recent News,No Link Available
+AMD,"Advanced Micro Devices, Inc.",Technology,Semiconductors,170993041408,105.52,1.0,N/A,187.28,94.73,1.736,-0.40361816,-0.40361816,N/A,9837777,25784999936,1640999936,4.032,0.019019999,0.02893,No Recent News,No Link Available
+AMLP,Alerian MLP ETF,N/A,N/A,N/A,14.075838,N/A,7.31,53.24,44.21,N/A,N/A,N/A,0.3809391,173973,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+AMZN,"Amazon.com, Inc.",Consumer Cyclical,Internet Retail,2059556880384,35.079422,5.54,N/A,242.52,151.61,1.192,0.08989763,0.08989763,N/A,15234008,637959012352,59248001024,54.342,0.07438,0.24290001,No Recent News,No Link Available
+APP,Applovin Corporation,Technology,Software - Application,104877047808,67.951546,4.54,N/A,525.15,60.67,2.33,3.3063316,3.3063316,N/A,2342554,4709248000,1577058944,326.33,0.20865999,1.3467,No Recent News,No Link Available
+AVGO,Broadcom Inc.,Technology,Semiconductors,893134438400,88.34874,2.15,1.24,251.88,119.756,1.03,0.40778887,0.40778887,N/A,8205855,54528999424,10396999680,166.032,0.069759995,0.14845,No Recent News,No Link Available
+COIN,"Coinbase Global, Inc.",Financial Services,Financial Data & Stock Exchanges,47582003200,19.770042,9.48,N/A,349.75,146.12,3.664,-0.25490195,-0.25490195,N/A,2243892,6293245952,2577754880,45.049,0.06825,0.31151,No Recent News,No Link Available
+CRWD,"CrowdStrike Holdings, Inc.",Technology,Software - Infrastructure,90540564480,N/A,-0.07,N/A,455.59,200.81,1.193,0.12653399,0.12653399,N/A,1710463,3953624064,-19271000,23.77,-0.0046900003,-0.00587,No Recent News,No Link Available
+DKNG,DraftKings Inc.,Consumer Cyclical,Gambling,18789812224,N/A,-1.05,N/A,53.61,28.69,2.069,-0.18559325,-0.18559325,N/A,2365915,4767698944,-507284992,132.104,-0.0885,-0.54814,No Recent News,No Link Available
+ETH,Grayscale Ethereum Mini Trust (,N/A,N/A,N/A,N/A,N/A,N/A,38.775,2.38,N/A,N/A,N/A,N/A,188403,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+FLIN,Franklin FTSE India ETF,N/A,N/A,N/A,23.909706,N/A,1.76,42.488,33.86,N/A,N/A,N/A,0.20423019,146170,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+FTC,First Trust Large Cap Growth Al,N/A,N/A,N/A,25.818794,N/A,0.32,149.16,113.13,N/A,N/A,N/A,0.2033408,5435,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+FTNT,"Fortinet, Inc.",Technology,Software - Infrastructure,75244109824,43.29646,2.26,N/A,114.82,54.57,0.968,0.44143486,0.44143486,N/A,1193593,5955800064,1745200000,71.857,0.13209,3.38742,No Recent News,No Link Available
+GIB,CGI Inc.,Technology,Information Technology Services,21969522688,18.55587,5.28,0.43,122.79,96.92,0.843,-0.11317706,-0.11317706,N/A,36263,14858427392,1741499008,34.494,0.091520004,0.18866,No Recent News,No Link Available
+GOOG,Alphabet Inc.,Communication Services,Internet Content & Information,1994608082944,20.504974,8.04,0.48,208.7,148.2,1.025,0.08750081,0.08750081,N/A,7551027,350018011136,100118003712,8.655,0.1674,0.32908002,No Recent News,No Link Available
+IAU,iShares Gold Trust Shares of th,N/A,N/A,55085117440,N/A,N/A,0.0,57.59,40.81,N/A,N/A,N/A,0.1543331,2893067,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+IBIT,iShares Bitcoin Trust ETF,N/A,N/A,N/A,N/A,N/A,0.0,61.75,28.23,N/A,N/A,N/A,N/A,6076265,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+IJH,iShares Core S&P Mid-Cap ETF,N/A,N/A,15050178560,18.381205,N/A,1.34,68.33,56.01,N/A,N/A,N/A,0.19690861,1695652,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+IJR,iShares Core S&P Small-Cap ETF,N/A,N/A,59318886400,15.8852415,N/A,2.12,128.61,101.85,N/A,N/A,N/A,0.1749497,929719,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+ITA,iShares U.S. Aerospace & Defens,N/A,N/A,N/A,30.960943,N/A,0.79,159.58,126.65,N/A,N/A,N/A,0.21274151,70413,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+IVV,iShares Core S&P 500 ETF,N/A,N/A,349652942848,24.815474,N/A,1.28,616.22,496.3,N/A,N/A,N/A,0.2054224,2084655,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+IYH,iShares U.S. Healthcare ETF,N/A,N/A,669349952,28.95694,N/A,1.16,66.59,57.38,N/A,N/A,N/A,0.1349102,26605,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+LRCX,Lam Research Corporation,Technology,Semiconductor Equipment & Materials,97596669952,23.109423,3.29,1.19,113.0,68.87,1.541,-0.20697415,-0.20697415,N/A,3014742,16209088512,4293570048,56.565,0.15589,0.50422,No Recent News,No Link Available
+MCD,McDonald's Corporation,Consumer Cyclical,Restaurants,216996085760,26.665495,11.39,2.31,326.32,243.53,0.706,0.08622575,0.08622575,N/A,1454659,25920000000,8223000064,N/A,0.13307,N/A,No Recent News,No Link Available
+MSFT,Microsoft Corporation,Technology,Software - Infrastructure,2855949041664,30.931963,12.42,0.86,468.35,376.91,0.914,-0.09772825,-0.09772825,N/A,8980963,261802000384,92749996032,33.998,0.14649001,0.34291,No Recent News,No Link Available
+MU,"Micron Technology, Inc.",Technology,Semiconductors,105968705536,22.75359,4.18,0.45,157.54,83.54,N/A,-0.06542057,-0.06542057,N/A,25087424,31323000832,4672000000,30.749,0.055219997,0.101009995,No Recent News,No Link Available
+NVDA,NVIDIA Corporation,Technology,Semiconductors,2841623920640,39.612244,2.94,0.03,153.13,75.606,1.765,0.2570926,0.2570926,N/A,84121006,130497003520,72879996928,12.946,0.57417,1.1917701,No Recent News,No Link Available
+NXPI,NXP Semiconductors N.V.,Technology,Semiconductors,50552807424,20.485613,9.73,2.0,296.08,196.98,1.476,-0.17062986,-0.17062986,N/A,584898,12613999616,2510000128,116.945,0.09043,0.27493998,No Recent News,No Link Available
+PEP,"Pepsico, Inc.",Consumer Defensive,Beverages - Non-Alcoholic,200410447872,21.02518,6.95,3.68,183.41,141.51,0.53,-0.14457619,-0.14457619,N/A,2568280,91853996032,9578000384,262.787,0.08989,0.52304,No Recent News,No Link Available
+PLTR,Palantir Technologies Inc.,Technology,Software - Infrastructure,205218988032,460.52634,0.19,N/A,125.41,20.33,2.806,2.6141438,2.6141438,N/A,30452065,2865507072,462190016,4.696,0.035720002,0.10812,No Recent News,No Link Available
+PYLD,PIMCO U.S. Treasury Index Fund ,N/A,N/A,N/A,N/A,N/A,5.89,26.7,25.11,N/A,N/A,N/A,N/A,168799,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+QQQ,"Invesco QQQ Trust, Series 1",N/A,N/A,187099873280,30.504189,N/A,0.56,540.81,413.07,N/A,N/A,N/A,0.2282184,10720473,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+RELX,RELX PLC PLC,Industrials,Specialty Business Services,91997798400,37.172535,1.34,1.6,51.99,40.25,0.482,0.1429553,0.1429553,N/A,75422,9434000384,1934000000,186.758,0.117180005,0.55999,No Recent News,No Link Available
+RSP,Invesco S&P 500 Equal Weight ET,N/A,N/A,26900555776,20.965271,N/A,1.48,188.16,158.83,N/A,N/A,N/A,0.1940899,1647243,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+SMCI,"Super Micro Computer, Inc.",Technology,Computer Hardware,24214026240,17.73913,2.3,N/A,110.611,17.25,1.203,-0.5980426,-0.5980426,N/A,19540308,20819873792,1444626048,31.382,0.12758,0.31015,No Recent News,No Link Available
+SOUN,"SoundHound AI, Inc.",Technology,Software - Application,3792133632,N/A,-1.04,N/A,24.98,3.5,2.843,0.5618893,0.5618893,N/A,5447654,84693000,-351096992,2.391,-0.19818,-3.32681,No Recent News,No Link Available
+SOXX,iShares Semiconductor ETF,N/A,N/A,1515694592,28.30961,N/A,0.69,267.24,189.11,N/A,N/A,N/A,0.2857345,641829,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+SPEU,SPDR Portfolio Europe ETF,N/A,N/A,N/A,17.636402,N/A,2.99,46.23,39.26,N/A,N/A,N/A,0.1755134,31374,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+SWKS,"Skyworks Solutions, Inc.",Technology,Semiconductors,10954499072,20.96923,3.25,4.09,120.86,62.01,1.178,-0.3521834,-0.3521834,N/A,437146,4044999936,526700000,18.639,0.05251,0.08342,No Recent News,No Link Available
+TSM,Taiwan Semiconductor Manufactur,Technology,Semiconductors,912988372992,25.697811,6.85,1.54,226.4,125.78,1.255,0.2627722,0.2627722,N/A,2171055,2894307786752,1173267677184,24.288,0.1353,0.30036,No Recent News,No Link Available
+VB,Vanguard Small-Cap ETF,N/A,N/A,197916459008,18.115387,N/A,1.32,263.35,209.81,N/A,N/A,N/A,0.1850122,323709,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+VCR,Vanguard Consumer Discretion ET,N/A,N/A,N/A,23.316225,N/A,0.78,402.25,284.84,N/A,N/A,N/A,0.2105659,10261,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+VDC,Vanguard Consumer Staples ETF,N/A,N/A,N/A,23.291595,N/A,2.19,226.64,194.38,N/A,N/A,N/A,0.1230322,13580,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+VGT,Vanguard Information Tech ETF,N/A,N/A,N/A,33.009148,N/A,0.62,648.76,478.25,N/A,N/A,N/A,0.24651991,120897,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+VIG,Vanguard Div Appreciation ETF,N/A,N/A,N/A,23.672304,N/A,1.66,205.24,173.17,N/A,N/A,N/A,0.16826771,201917,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+VIS,Vanguard Industrials ETF,N/A,N/A,6078704128,23.60142,N/A,1.2,280.63,228.59,N/A,N/A,N/A,0.21853639,13845,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+VOO,Vanguard S&P 500 ETF,N/A,N/A,N/A,24.905758,N/A,1.23,563.92,453.9,N/A,N/A,N/A,0.2053596,1769075,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+VRT,"Vertiv Holdings, LLC",Industrials,Electrical Equipment & Parts,33340745728,68.40625,1.28,0.17,155.84,62.4,1.709,0.07975757,0.07975757,N/A,1026138,8011800064,495800000,129.208,0.10102,0.22287,No Recent News,No Link Available
+XLV,SPDR Select Sector Fund - Healt,N/A,N/A,28824563712,29.466188,N/A,1.54,159.64,135.95,N/A,N/A,N/A,0.1410896,1455343,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
 MBXIX,Catalyst/Millburn Hedge Strateg,N/A,N/A,N/A,N/A,N/A,1.86,40.71,37.18,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
 VCOBX,Vanguard Core Bond Fund Admiral,N/A,N/A,N/A,N/A,N/A,4.68,18.65,17.4,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-EQIX,"Equinix, Inc.",Real Estate,REIT - Specialty,81533067264,99.01655,8.46,2.24,994.03,684.14,0.734,-0.026689112,-0.026689112,N/A,695339,8737000448,815000000,139.913,0.02971,0.062459998,No Recent News,No Link Available
-ASML,ASML Holding N.V. - New York Re,Technology,Semiconductor Equipment & Materials,280744787968,34.13002,20.92,1.08,1110.09,645.45,1.113,-0.24150681,-0.24150681,N/A,1367524,28262899712,7571599872,27.41,0.12737,0.47427,No Recent News,No Link Available
-CLIP,Global X Funds Global X 1-3 Mon,N/A,N/A,N/A,N/A,N/A,5.0,100.56,100.03,N/A,N/A,N/A,N/A,203253,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-FTEC,Fidelity MSCI Information Techn,N/A,N/A,N/A,33.26434,N/A,0.51,193.06,142.12,N/A,N/A,N/A,0.2178302,318749,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-FVD,First Trust VL Dividend,N/A,N/A,8433854464,19.730394,N/A,2.14,46.83,39.86,N/A,N/A,N/A,0.1107037,600520,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-IWM,iShares Russell 2000 ETF,N/A,N/A,57022230528,16.199247,N/A,1.18,244.98,191.34,N/A,N/A,N/A,0.1262062,33258657,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-REGL,ProShares S&P MidCap 400 Divide,N/A,N/A,N/A,17.103079,N/A,2.21,89.45,72.391,N/A,N/A,N/A,0.1377591,47021,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-SDY,SPDR S&P Dividend ETF,N/A,N/A,N/A,20.91497,N/A,2.45,144.45,124.37,N/A,N/A,N/A,0.124734,220984,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-SMH,VanEck Semiconductor ETF,N/A,N/A,2644275968,31.642473,N/A,0.46,283.07,198.44,N/A,N/A,N/A,0.3152116,5097173,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-VHT,Vanguard Health Care ETF,N/A,N/A,14338959360,29.804976,N/A,1.42,289.14,250.07,N/A,N/A,N/A,0.1082795,114358,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-AMAT,"Applied Materials, Inc.",Technology,Semiconductor Equipment & Materials,126464573440,20.374346,7.64,1.18,255.89,145.37,1.619,-0.22453046,-0.22453046,N/A,5138783,27634999296,6343000064,35.372,0.15558,0.35186002,No Recent News,No Link Available
-BKNG,Booking Holdings Inc. Common St,Consumer Cyclical,Travel Services,146535612416,25.840403,172.81,0.86,5337.24,3180.0,1.404,0.29399323,0.29399323,N/A,252893,23739000832,5881999872,N/A,0.18225001,N/A,No Recent News,No Link Available
-COST,Costco Wholesale Corporation,Consumer Defensive,Discount Stores,401053941760,52.64531,17.17,0.51,1078.23,697.27,0.805,0.23563993,0.23563993,N/A,3186406,264085995520,7621000192,31.431,0.087349996,0.32894,No Recent News,No Link Available
-CSCO,"Cisco Systems, Inc.",Technology,Communication Equipment,240686546944,26.535088,2.28,2.71,66.5,44.5,0.776,0.2279278,0.2279278,N/A,16250727,54175997952,9187000320,71.21,0.065560006,0.20019,No Recent News,No Link Available
-CVX,Chevron Corporation,Energy,Oil & Gas Integrated,276449427456,16.154322,9.72,4.36,167.11,135.37,1.062,0.010359645,0.010359645,N/A,5333537,195567992832,17660999680,19.334,0.056160003,0.11266,No Recent News,No Link Available
-GOOGL,Alphabet Inc.,Communication Services,Internet Content & Information,2029039910912,20.583334,8.04,0.48,207.05,146.08,1.025,0.120598555,0.120598555,N/A,31995894,350018011136,100118003712,8.655,0.1674,0.32908002,No Recent News,No Link Available
-HD,"Home Depot, Inc. (The)",Consumer Cyclical,Home Improvement Retail,348978348032,23.577852,14.9,2.62,439.37,323.77,1.09,-0.055389762,-0.055389762,N/A,5507193,159514001408,14805999616,938.102,0.15585,3.8537202,No Recent News,No Link Available
-HON,Honeywell International Inc.,Industrials,Conglomerates,136138530816,24.049368,8.71,2.16,242.77,189.75,1.069,0.064596415,0.064596415,N/A,3884590,38498000896,5704999936,168.18,0.074990004,0.32244998,No Recent News,No Link Available
-IEI,iShares 3-7 Year Treasury Bond ,N/A,N/A,N/A,N/A,N/A,3.16,120.33,113.16,N/A,N/A,N/A,-0.0042888997,3752503,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-IWO,iShares Russell 2000 Growth ETF,N/A,N/A,11690489856,20.37056,N/A,0.83,317.62,242.92,N/A,N/A,N/A,0.1093152,418278,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-IYW,iShares U.S. Technology ETF,N/A,N/A,3015519488,33.001774,N/A,0.21,167.3,124.32,N/A,N/A,N/A,0.2322052,441301,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-PG,Procter & Gamble Company (The),Consumer Defensive,Household & Personal Products,393864445952,26.746815,6.28,2.4,180.43,153.52,0.4,0.04193294,0.04193294,N/A,5376515,84346003456,15192000512,67.428,0.108839996,0.31058002,No Recent News,No Link Available
-RTX,RTX Corporation,Industrials,Aerospace & Defense,173548355584,36.616905,3.55,1.94,135.36,92.35,0.491,0.39086235,0.39086235,N/A,4015118,80738000896,4774000128,69.821,0.03258,0.08125,No Recent News,No Link Available
-SCHW,Charles Schwab Corporation (The,Financial Services,Capital Markets,139844386816,25.789297,2.99,1.4,84.5,61.01,0.978,0.14406526,0.14406526,N/A,14198735,19605999616,5478000128,121.987,0.012209999,0.13303,No Recent News,No Link Available
-SHLD,Global X Funds Global X Defense,N/A,N/A,N/A,31.738644,N/A,0.47,47.87,32.67,N/A,N/A,N/A,N/A,694881,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-SHV,iShares Short Treasury Bond ETF,N/A,N/A,N/A,N/A,N/A,4.95,110.64,109.91,N/A,N/A,N/A,0.023775302,9071885,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-UNP,Union Pacific Corporation,Industrials,Railroads,143536062464,21.418394,11.09,2.26,258.07,218.55,1.052,-0.027950585,-0.027950585,N/A,2114257,24249999360,6746999808,192.202,0.090550005,0.42597,No Recent News,No Link Available
-VEA,Vanguard FTSE Developed Markets,N/A,N/A,N/A,16.962906,N/A,3.14,53.4,46.8,N/A,N/A,N/A,0.1271528,14069551,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+EQIX,"Equinix, Inc.",Real Estate,REIT - Specialty,81376362496,98.13028,8.52,2.2,994.03,684.14,0.734,0.06336069,0.06336069,N/A,202544,8737000448,815000000,139.913,0.02971,0.062459998,No Recent News,No Link Available
+ASML,ASML Holding N.V. - New York Re,Technology,Semiconductor Equipment & Materials,281452314624,33.87518,21.07,1.05,1110.09,645.45,1.113,-0.25092858,-0.25092858,N/A,463093,28262899712,7571599872,27.41,0.12737,0.47427,No Recent News,No Link Available
+CLIP,Global X Funds Global X 1-3 Mon,N/A,N/A,N/A,N/A,N/A,5.0,100.56,100.03,N/A,N/A,N/A,N/A,31907,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+FTEC,Fidelity MSCI Information Techn,N/A,N/A,N/A,32.85506,N/A,0.51,193.06,142.12,N/A,N/A,N/A,0.2482819,51382,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+FVD,First Trust VL Dividend,N/A,N/A,8392111616,19.63274,N/A,2.14,46.83,39.86,N/A,N/A,N/A,0.1354776,75537,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+IWM,iShares Russell 2000 ETF,N/A,N/A,56988508160,16.189667,N/A,1.18,244.98,191.34,N/A,N/A,N/A,0.16263981,8639321,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+REGL,ProShares S&P MidCap 400 Divide,N/A,N/A,N/A,17.006899,N/A,2.21,89.45,72.391,N/A,N/A,N/A,0.1615143,49165,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+SDY,SPDR S&P Dividend ETF,N/A,N/A,N/A,20.808702,N/A,2.45,144.45,124.37,N/A,N/A,N/A,0.1482638,117218,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+SMH,VanEck Semiconductor ETF,N/A,N/A,2606753792,31.19347,N/A,0.46,283.07,198.44,N/A,N/A,N/A,0.35543677,1533448,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+VHT,Vanguard Health Care ETF,N/A,N/A,14445662208,28.646666,N/A,1.42,289.14,250.07,N/A,N/A,N/A,0.1338647,32147,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+AMAT,"Applied Materials, Inc.",Technology,Semiconductor Equipment & Materials,122743595008,19.723238,7.66,1.19,255.89,145.37,1.619,-0.26573128,-0.26573128,N/A,2402332,27634999296,6343000064,35.372,0.15558,0.35186002,No Recent News,No Link Available
+BKNG,Booking Holdings Inc. Common St,Consumer Cyclical,Travel Services,149469954048,26.397566,172.55,0.84,5337.24,3180.0,1.404,0.26603365,0.26603365,N/A,106399,23739000832,5881999872,N/A,0.18225001,N/A,No Recent News,No Link Available
+COST,Costco Wholesale Corporation,Consumer Defensive,Discount Stores,397282639872,52.36374,17.1,0.52,1078.23,697.27,0.805,0.21856284,0.21856284,N/A,957168,264085995520,7621000192,31.431,0.087349996,0.32894,No Recent News,No Link Available
+CSCO,"Cisco Systems, Inc.",Technology,Communication Equipment,238239891456,26.26535,2.28,2.71,66.5,44.5,0.776,0.21775818,0.21775818,N/A,9502792,54175997952,9187000320,71.21,0.065560006,0.20019,No Recent News,No Link Available
+CVX,Chevron Corporation,Energy,Oil & Gas Integrated,289838792704,16.936728,9.72,4.15,167.11,135.37,1.062,0.06536925,0.06536925,N/A,4080563,195567992832,17660999680,19.334,0.056160003,0.11266,No Recent News,No Link Available
+GOOGL,Alphabet Inc.,Communication Services,Internet Content & Information,1994451714048,20.22388,8.04,0.49,207.05,147.22,1.025,0.079790354,0.079790354,N/A,10496056,350018011136,100118003712,8.655,0.1674,0.32908002,No Recent News,No Link Available
+HD,"Home Depot, Inc. (The)",Consumer Cyclical,Home Improvement Retail,347607498752,23.485235,14.9,2.59,439.37,323.77,1.09,-0.08906424,-0.08906424,N/A,1672383,159514001408,14805999616,938.102,0.15585,3.8537202,No Recent News,No Link Available
+HON,Honeywell International Inc.,Industrials,Conglomerates,136625971200,24.135477,8.71,2.14,242.77,189.75,1.069,0.05061531,0.05061531,N/A,1677069,38498000896,5704999936,168.18,0.074990004,0.32244998,No Recent News,No Link Available
+IEI,iShares 3-7 Year Treasury Bond ,N/A,N/A,N/A,N/A,N/A,3.16,120.33,113.16,N/A,N/A,N/A,-0.0026885,493655,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+IWO,iShares Russell 2000 Growth ETF,N/A,N/A,11688700928,20.367443,N/A,0.83,317.62,242.92,N/A,N/A,N/A,0.1412451,89922,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+IYW,iShares U.S. Technology ETF,N/A,N/A,2981859840,32.633404,N/A,0.21,167.3,124.32,N/A,N/A,N/A,0.2587188,83411,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+PG,Procter & Gamble Company (The),Consumer Defensive,Household & Personal Products,389925076992,26.479298,6.28,2.4,180.43,153.52,0.4,0.03643453,0.03643453,N/A,3926879,84346003456,15192000512,67.428,0.108839996,0.31058002,No Recent News,No Link Available
+RTX,RTX Corporation,Industrials,Aerospace & Defense,177980850176,37.552113,3.55,1.87,135.74,94.19,0.491,0.40747333,0.40747333,N/A,1523190,80738000896,4774000128,69.821,0.03258,0.08125,No Recent News,No Link Available
+SCHW,Charles Schwab Corporation (The,Financial Services,Capital Markets,141803044864,26.150503,2.99,1.37,84.5,61.01,0.978,0.097346425,0.097346425,N/A,3517600,19605999616,5478000128,121.987,0.012209999,0.13303,No Recent News,No Link Available
+SHLD,Global X Funds Global X Defense,N/A,N/A,N/A,31.01451,N/A,0.47,48.795,32.67,N/A,N/A,N/A,N/A,161409,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+SHV,iShares Short Treasury Bond ETF,N/A,N/A,N/A,N/A,N/A,4.95,110.64,109.91,N/A,N/A,N/A,0.023572499,3164111,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+UNP,Union Pacific Corporation,Industrials,Railroads,140281987072,20.951715,11.08,2.28,258.07,218.55,1.052,-0.04155612,-0.04155612,N/A,703205,24249999360,6746999808,192.202,0.090550005,0.42597,No Recent News,No Link Available
+VEA,Vanguard FTSE Developed Markets,N/A,N/A,N/A,16.24154,N/A,3.14,53.4,46.8,N/A,N/A,N/A,0.1572839,3101852,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
 GTSOX,Glenmede Secured Options Portfo,N/A,N/A,N/A,N/A,N/A,0.33,15.38,13.12,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-HNVRX,Harbor Small Cap Value Fund Ret,N/A,N/A,N/A,20.552689,N/A,0.72,46.77,37.84,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+HNVRX,Harbor Small Cap Value Fund Ret,N/A,N/A,N/A,20.748983,N/A,0.72,46.77,37.84,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
 POLIX,Polen Growth Fund Institutional,N/A,N/A,N/A,N/A,N/A,0.0,50.57,42.59,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-PRILX,Parnassus Core Equity Fund-Inst,N/A,N/A,N/A,30.878838,N/A,0.52,68.37,57.11,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+PRILX,Parnassus Core Equity Fund-Inst,N/A,N/A,N/A,31.945473,N/A,0.52,68.37,57.11,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
 WCMIX,WCM Focused International Growt,N/A,N/A,N/A,N/A,N/A,0.23,26.67,21.61,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-EOG,"EOG Resources, Inc.",Energy,Oil & Gas E&P,68642512896,11.015111,11.25,3.15,139.67,115.78,1.26,0.0028324127,0.0028324127,N/A,2515522,23477999616,6402999808,19.734,0.1112,0.22294001,No Recent News,No Link Available
-IBB,iShares Biotechnology ETF,N/A,N/A,9353042944,27.732933,N/A,0.28,150.57,123.6,N/A,N/A,N/A,0.055750698,988425,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-IEF,iShares 7-10 Year Treasury Bond,N/A,N/A,13794080768,N/A,N/A,3.58,99.18,91.02,N/A,N/A,N/A,-0.0219383,4390889,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-IXJ,iShares Global Healthcare ETF,N/A,N/A,3269878528,28.765162,N/A,1.39,101.31,85.21,N/A,N/A,N/A,0.099054605,118051,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-IYE,iShares U.S. Energy ETF,N/A,N/A,984745472,15.260844,N/A,2.61,51.7,43.71,N/A,N/A,N/A,0.2734584,165118,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-MA,Mastercard Incorporated,Financial Services,Credit Services,481053638656,38.01441,13.88,0.58,582.23,428.86,1.102,0.10179794,0.10179794,N/A,2369416,28167000064,12874000384,291.42,0.22715999,1.90557,No Recent News,No Link Available
-META,"Meta Platforms, Inc.",Communication Services,Internet Content & Information,1539451650048,25.443886,23.88,0.35,740.91,414.5,1.231,0.22258437,0.22258437,N/A,12364505,164500996096,62359998464,27.25,0.16863,0.37140998,No Recent News,No Link Available
-SO,Southern Company (The),Utilities,Utilities - Regulated Electric,99128778752,22.651628,3.99,3.19,94.45,67.53,0.446,0.3019303,0.3019303,N/A,2990650,26723999744,4400999936,180.719,0.03373,0.1185,No Recent News,No Link Available
-V,Visa Inc.,Financial Services,Credit Services,640045481984,33.44758,9.92,0.71,366.54,252.7,0.949,0.16400635,0.16400635,N/A,7810101,36801998848,19704999936,53.815,0.16712,0.51191,No Recent News,No Link Available
-WMT,Walmart Inc.,Consumer Defensive,Discount Stores,685649821696,35.414936,2.41,1.1,105.3,58.56,0.537,0.40239894,0.40239894,N/A,32516859,680984969216,19435999232,63.58,0.07148,0.21414,No Recent News,No Link Available
-ADP,"Automatic Data Processing, Inc.",Technology,Software - Application,118708690944,30.391666,9.6,2.11,322.84,231.27,0.777,0.20636761,0.20636761,N/A,1429311,19903399936,3933700096,86.202,0.054569997,0.83716005,No Recent News,No Link Available
-COWZ,Pacer US Cash Cows 100 ETF,N/A,N/A,N/A,13.175268,N/A,1.8,61.92,53.03,N/A,N/A,N/A,0.20826891,2044144,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-DUK,Duke Energy Corporation (Holdin,Utilities,Utilities - Regulated Electric,93335887872,21.036777,5.71,3.48,121.25,92.75,0.465,0.26522017,0.26522017,N/A,5693233,29934000128,4392000000,166.689,0.027309999,0.09077,No Recent News,No Link Available
-FDIS,Fidelity MSCI Consumer Discreti,N/A,N/A,N/A,23.498772,N/A,0.73,104.41,73.19,N/A,N/A,N/A,0.1754352,80654,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-GLD,SPDR Gold Trust,N/A,N/A,71644971008,N/A,N/A,0.0,276.3,198.94,N/A,N/A,N/A,0.139476,11137891,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-IWR,iShares Russell Mid-Cap ETF,N/A,N/A,29674795008,20.210331,N/A,1.26,96.01,78.36,N/A,N/A,N/A,0.14408,1620942,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-KXI,iShares Global Consumer Staples,N/A,N/A,915857984,22.905323,N/A,2.36,66.31,57.85,N/A,N/A,N/A,0.0813912,35975,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-LLY,Eli Lilly and Company,Healthcare,Drug Manufacturers - General,730643300352,69.46883,11.71,0.74,972.53,711.4,0.335,0.06663525,0.06663525,N/A,2594091,45042700288,10590000128,244.616,0.15329,0.84264,No Recent News,No Link Available
-LSCC,Lattice Semiconductor Corporati,Technology,Semiconductors,8378746880,138.15909,0.44,N/A,80.47,40.65,1.429,-0.19802111,-0.19802111,N/A,1589849,509400992,61131000,2.567,0.04502,0.08715,No Recent News,No Link Available
-MRVL,"Marvell Technology, Inc.",Technology,Semiconductors,59533238272,N/A,-1.02,0.35,127.48,53.19,1.419,0.022916675,0.022916675,N/A,15613084,5767300096,-885000000,32.346,-0.00026,-0.06264,No Recent News,No Link Available
-MUB,iShares National Muni Bond ETF,N/A,N/A,N/A,N/A,N/A,3.0,108.81,105.0,N/A,N/A,N/A,0.013410601,4984073,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-NEE,"NextEra Energy, Inc.",Utilities,Utilities - Regulated Electric,151294558208,21.824928,3.37,3.08,86.1,59.44,0.574,0.22236991,0.22236991,N/A,6868909,24753000448,6945999872,137.296,0.02503,0.09506,No Recent News,No Link Available
-NVO,Novo Nordisk A/S,Healthcare,Drug Manufacturers - General,342421012480,23.378788,3.3,2.09,148.15,73.8,0.167,-0.41944468,-0.41944468,N/A,6423949,290402992128,100988002304,71.636,0.22408001,0.80775,No Recent News,No Link Available
-PAVE,Global X Funds Global X U.S. In,N/A,N/A,N/A,21.969645,N/A,0.55,46.18,35.72,N/A,N/A,N/A,0.2514394,1034916,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-PHO,Invesco Water Resources ETF,N/A,N/A,N/A,25.031815,N/A,0.44,72.59,62.82,N/A,N/A,N/A,0.1490501,43482,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-PTLC,Pacer Fund Trust Pacer Trendpil,N/A,N/A,3904972032,24.94371,N/A,0.66,55.9,45.07,N/A,N/A,N/A,0.14997381,262148,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-SHY,iShares 1-3 Year Treasury Bond ,N/A,N/A,17250504704,3746.3635,N/A,3.92,83.3,80.91,N/A,N/A,N/A,0.010404,3932537,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-SPY,SPDR S&P 500,N/A,N/A,516536893440,24.940193,N/A,1.19,613.23,493.86,N/A,N/A,N/A,0.17664379,60667538,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-TYO,Direxion Daily 10-Yr Treasury B,N/A,N/A,N/A,N/A,N/A,4.56,15.64,12.19,N/A,N/A,N/A,0.1113377,24643,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+EOG,"EOG Resources, Inc.",Energy,Oil & Gas E&P,68432019456,10.981334,11.25,3.14,139.67,115.78,1.26,-0.004325509,-0.004325509,N/A,944829,23477999616,6402999808,19.734,0.1112,0.22294001,No Recent News,No Link Available
+IBB,iShares Biotechnology ETF,N/A,N/A,9256856576,27.44773,N/A,0.28,150.57,123.6,N/A,N/A,N/A,0.061961003,128699,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+IEF,iShares 7-10 Year Treasury Bond,N/A,N/A,13897009152,N/A,N/A,3.58,99.18,91.02,N/A,N/A,N/A,-0.0189825,879654,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+IXJ,iShares Global Healthcare ETF,N/A,N/A,3285294080,28.900772,N/A,1.39,101.31,85.21,N/A,N/A,N/A,0.120271794,15033,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+IYE,iShares U.S. Energy ETF,N/A,N/A,1008737600,15.632656,N/A,2.61,51.7,43.71,N/A,N/A,N/A,0.34141448,51611,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+MA,Mastercard Incorporated,Financial Services,Credit Services,487102840832,38.464725,13.89,0.57,582.23,428.86,1.102,0.11358404,0.11358404,N/A,1039076,28167000064,12874000384,291.42,0.22715999,1.90557,No Recent News,No Link Available
+META,"Meta Platforms, Inc.",Communication Services,Internet Content & Information,1492965916672,24.706612,23.85,0.36,740.91,414.5,1.231,0.1499666,0.1499666,N/A,6724150,164500996096,62359998464,27.25,0.16863,0.37140998,No Recent News,No Link Available
+SO,Southern Company (The),Utilities,Utilities - Regulated Electric,97807147008,22.349625,3.99,3.2,94.45,67.53,0.446,0.28896844,0.28896844,N/A,1760124,26723999744,4400999936,180.719,0.03373,0.1185,No Recent News,No Link Available
+V,Visa Inc.,Financial Services,Credit Services,650117644288,34.008213,9.91,0.7,366.54,252.7,0.949,0.19854546,0.19854546,N/A,2612530,36801998848,19704999936,53.815,0.16712,0.51191,No Recent News,No Link Available
+WMT,Walmart Inc.,Consumer Defensive,Discount Stores,687925886976,35.60581,2.41,1.1,105.3,58.56,0.537,0.40972567,0.40972567,N/A,6651302,680984969216,19435999232,63.58,0.07148,0.21414,No Recent News,No Link Available
+ADP,"Automatic Data Processing, Inc.",Technology,Software - Application,119365779456,30.623695,9.58,2.07,322.84,231.27,0.777,0.20152664,0.20152664,N/A,592757,19903399936,3933700096,86.202,0.054569997,0.83716005,No Recent News,No Link Available
+COWZ,Pacer US Cash Cows 100 ETF,N/A,N/A,N/A,13.27456,N/A,1.8,61.92,53.03,N/A,N/A,N/A,0.2464764,257933,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+DUK,Duke Energy Corporation (Holdin,Utilities,Utilities - Regulated Electric,92508356608,20.886843,5.7,3.48,121.47,92.75,0.465,0.270056,0.270056,N/A,1386492,29934000128,4392000000,166.689,0.027309999,0.09077,No Recent News,No Link Available
+FDIS,Fidelity MSCI Consumer Discreti,N/A,N/A,N/A,23.253561,N/A,0.73,104.41,73.19,N/A,N/A,N/A,0.2061825,18086,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+GLD,SPDR Gold Trust,N/A,N/A,72252776448,N/A,N/A,0.0,281.48,199.72,N/A,N/A,N/A,0.1528539,3463190,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+IWR,iShares Russell Mid-Cap ETF,N/A,N/A,29712834560,20.236238,N/A,1.26,96.01,78.36,N/A,N/A,N/A,0.18492241,649181,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+KXI,iShares Global Consumer Staples,N/A,N/A,914176064,22.863258,N/A,2.36,66.31,57.85,N/A,N/A,N/A,0.090461396,1993,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+LLY,Eli Lilly and Company,Healthcare,Drug Manufacturers - General,760687099904,72.32536,11.71,0.71,972.53,711.4,0.335,0.09338057,0.09338057,N/A,1055949,45042700288,10590000128,244.616,0.15329,0.84264,No Recent News,No Link Available
+LSCC,Lattice Semiconductor Corporati,Technology,Semiconductors,8257455616,136.15909,0.44,N/A,80.13,40.65,1.429,-0.24021083,-0.24021083,N/A,194099,509400992,61131000,2.567,0.04502,0.08715,No Recent News,No Link Available
+MRVL,"Marvell Technology, Inc.",Technology,Semiconductors,60260732928,N/A,-1.02,0.34,127.48,53.19,1.419,0.05936277,0.05936277,N/A,2759734,5767300096,-885000000,32.346,-0.00026,-0.06264,No Recent News,No Link Available
+MUB,iShares National Muni Bond ETF,N/A,N/A,N/A,N/A,N/A,3.0,108.81,105.0,N/A,N/A,N/A,0.0327892,531258,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+NEE,"NextEra Energy, Inc.",Utilities,Utilities - Regulated Electric,144691478528,20.872404,3.37,3.18,86.1,61.3,0.574,0.15166724,0.15166724,N/A,4245919,24753000448,6945999872,137.296,0.02503,0.09506,No Recent News,No Link Available
+NVO,Novo Nordisk A/S,Healthcare,Drug Manufacturers - General,344176263168,23.111446,3.32,2.05,148.15,73.8,0.167,-0.38808638,-0.38808638,N/A,1830995,290402992128,100988002304,71.636,0.22408001,0.80775,No Recent News,No Link Available
+PAVE,Global X Funds Global X U.S. In,N/A,N/A,N/A,21.774767,N/A,0.55,46.18,35.72,N/A,N/A,N/A,0.2928707,176227,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+PHO,Invesco Water Resources ETF,N/A,N/A,N/A,24.631367,N/A,0.44,72.59,62.82,N/A,N/A,N/A,0.1737399,20038,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+PTLC,Pacer Fund Trust Pacer Trendpil,N/A,N/A,3912587008,24.992353,N/A,0.66,55.9,45.07,N/A,N/A,N/A,0.15043549,76826,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+SHY,iShares 1-3 Year Treasury Bond ,N/A,N/A,17293998080,3755.809,N/A,3.92,83.3,80.91,N/A,N/A,N/A,0.0106713995,542041,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+SPY,SPDR S&P 500,N/A,N/A,513847787520,24.810354,N/A,1.19,613.23,493.86,N/A,N/A,N/A,0.2054141,17302230,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+TYO,Direxion Daily 10-Yr Treasury B,N/A,N/A,N/A,N/A,N/A,4.56,15.64,12.19,N/A,N/A,N/A,0.1028576,1026,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
 FMOXX,Fidelity Tax-Exempt Money Marke,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-DLR,"Digital Realty Trust, Inc.",Real Estate,REIT - Specialty,50926678016,92.856255,1.6,3.28,198.0,135.54,0.676,0.044722557,0.044722557,N/A,2814577,5434829824,561766016,79.457,0.0089,0.02664,No Recent News,No Link Available
-CGW,Invesco S&P Global Water Index ,N/A,N/A,N/A,17.85013,N/A,1.25,61.55,51.78,N/A,N/A,N/A,0.12099829,138655,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-PPA,Invesco Aerospace & Defense ETF,N/A,N/A,1752703488,27.187614,N/A,0.6,124.89,97.64,N/A,N/A,N/A,0.1787473,168734,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-SONY,Sony Group Corporation,Technology,Consumer Electronics,145300586496,19.28,1.25,0.51,25.64,15.022,0.725,0.3534764,0.3534764,N/A,8639843,13807786131456,1132877971456,51.356,0.02555,0.14321,No Recent News,No Link Available
-EEM,iShares MSCI Emerging Index Fun,N/A,N/A,33541992448,14.883196,N/A,2.36,47.44,39.39,N/A,N/A,N/A,0.0660218,21282063,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-GEHC,GE HealthCare Technologies Inc.,Healthcare,Health Information Services,37484716032,18.887096,4.34,0.17,94.8,74.51,1.315,-0.09535372,-0.09535372,N/A,5207272,19672000512,1992999936,108.368,0.05771,0.25686002,No Recent News,No Link Available
-IXN,iShares Global Tech ETF,N/A,N/A,1168457984,32.182964,N/A,0.44,88.62,68.53,N/A,N/A,N/A,0.2066268,198886,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-LMT,Lockheed Martin Corporation,Industrials,Aerospace & Defense,109729898496,20.8764,22.33,2.83,618.95,419.7,0.427,0.07610798,0.07610798,N/A,972241,71042998272,5336000000,338.197,0.08306,0.81044996,No Recent News,No Link Available
-PANW,"Palo Alto Networks, Inc.",Technology,Software - Infrastructure,120727306240,103.016945,1.77,N/A,208.39,132.5,1.044,0.27850235,0.27850235,N/A,3563630,8570500096,1254499968,15.221,0.0357,0.23378,No Recent News,No Link Available
-QCOM,QUALCOMM Incorporated,Technology,Semiconductors,173177487360,16.891047,9.27,2.17,230.63,149.43,1.289,-0.061945856,-0.061945856,N/A,5309435,40696000512,10478999552,54.23,0.12626,0.41968,No Recent News,No Link Available
-SNOW,Snowflake Inc.,Technology,Software - Application,51527385088,N/A,-3.86,N/A,194.4,107.13,1.073,-0.0012795329,-0.0012795329,N/A,3762791,3626395904,-1285639936,89.311,-0.10354,-0.31455,No Recent News,No Link Available
-UL,Unilever PLC,Consumer Defensive,Household & Personal Products,144978477056,23.673386,2.48,3.18,65.87,46.46,0.22,0.21001649,0.21001649,N/A,1445526,60761001984,5744000000,142.11,0.09069,0.29405,No Recent News,No Link Available
-VPU,Vanguard Utilities ETF,N/A,N/A,4563929600,20.762075,N/A,2.87,180.04,135.67,N/A,N/A,N/A,0.09709,115377,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-XLI,SPDR Select Sector Fund - Indus,N/A,N/A,17915768832,23.960476,N/A,1.39,144.51,119.17,N/A,N/A,N/A,0.17759319,8900421,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-DELL,Dell Technologies Inc.,Technology,Computer Hardware,66749440000,14.995297,6.38,2.2,179.7,86.93,0.899,-0.10278535,-0.10278535,N/A,5921042,95567003648,4592000000,N/A,0.04817,N/A,No Recent News,No Link Available
-INTC,Intel Corporation,Technology,Semiconductors,104136491008,N/A,-4.38,2.24,45.41,18.51,1.018,-0.43690002,-0.43690002,N/A,116901643,53100998656,-18755999744,48.277,-0.01233,-0.17891,No Recent News,No Link Available
-MINO,PIMCO Municipal Income Opportun,N/A,N/A,N/A,N/A,N/A,3.83,51.82,44.12,N/A,N/A,N/A,N/A,79230,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
-NFLX,"Netflix, Inc.",Communication Services,Entertainment,392680931328,46.293495,19.83,N/A,1064.5,542.01,1.377,0.48450005,0.48450005,N/A,5200684,39000965120,8711630848,72.726,0.12720999,0.38435,No Recent News,No Link Available
-PENG,"Penguin Solutions, Inc.",Technology,Information Technology Services,935253504,N/A,-0.52,N/A,29.81,14.87,1.695,-0.22958738,-0.22958738,N/A,976499,1237650944,-27334000,177.115,0.01897,-0.059660003,No Recent News,No Link Available
-SYM,Symbotic Inc.,Industrials,Specialty Industrial Machinery,12738686976,N/A,-0.14,N/A,50.405,17.11,1.853,-0.52027476,-0.52027476,N/A,1514912,1914929024,-14130000,6.285,-0.03415,-0.30059,No Recent News,No Link Available
+DLR,"Digital Realty Trust, Inc.",Real Estate,REIT - Specialty,51060363264,93.100006,1.6,3.22,198.0,135.54,0.676,0.093134046,0.093134046,N/A,683857,5434829824,561766016,79.457,0.0089,0.02664,No Recent News,No Link Available
+CGW,Invesco S&P Global Water Index ,N/A,N/A,N/A,17.605782,N/A,1.25,61.55,51.78,N/A,N/A,N/A,0.14622599,15554,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+PPA,Invesco Aerospace & Defense ETF,N/A,N/A,1784518528,27.681122,N/A,0.6,124.89,97.64,N/A,N/A,N/A,0.22588381,11904,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+SONY,Sony Group Corporation,Technology,Consumer Electronics,152234016768,20.362904,1.24,0.5,25.64,15.022,0.725,0.40431058,0.40431058,N/A,19683324,13807786131456,1132877971456,51.356,0.02555,0.14321,No Recent News,No Link Available
+EEM,iShares MSCI Emerging Index Fun,N/A,N/A,33462988800,14.84814,N/A,2.36,47.44,39.39,N/A,N/A,N/A,0.101453,4684540,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+GEHC,GE HealthCare Technologies Inc.,Healthcare,Health Information Services,36801052672,18.542625,4.34,0.17,94.8,74.51,1.315,-0.08826482,-0.08826482,N/A,936236,19672000512,1992999936,108.368,0.05771,0.25686002,No Recent News,No Link Available
+IXN,iShares Global Tech ETF,N/A,N/A,1156703488,31.85921,N/A,0.44,88.62,68.53,N/A,N/A,N/A,0.23771949,30583,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+LMT,Lockheed Martin Corporation,Industrials,Aerospace & Defense,112738123776,21.467953,22.31,2.83,618.95,419.7,0.427,0.046783924,0.046783924,N/A,864085,71042998272,5336000000,338.197,0.08306,0.81044996,No Recent News,No Link Available
+PANW,"Palo Alto Networks, Inc.",Technology,Software - Infrastructure,120369774592,102.71187,1.77,N/A,208.39,132.5,1.044,0.28328335,0.28328335,N/A,1757953,8570500096,1254499968,15.221,0.0357,0.23378,No Recent News,No Link Available
+QCOM,QUALCOMM Incorporated,Technology,Semiconductors,172359041024,16.811218,9.27,2.15,230.63,149.43,1.289,-0.0714286,-0.0714286,N/A,2424457,40696000512,10478999552,54.23,0.12626,0.41968,No Recent News,No Link Available
+SNOW,Snowflake Inc.,Technology,Software - Application,51223752704,N/A,-3.87,N/A,194.4,107.13,1.073,-0.011570156,-0.011570156,N/A,659715,3626395904,-1285639936,89.311,-0.10354,-0.31455,No Recent News,No Link Available
+UL,Unilever PLC,Consumer Defensive,Household & Personal Products,144677797888,23.458,2.5,3.16,65.87,46.46,0.22,0.18483698,0.18483698,N/A,537390,60761001984,5744000000,142.11,0.09069,0.29405,No Recent News,No Link Available
+VPU,Vanguard Utilities ETF,N/A,N/A,4542953984,20.082788,N/A,2.87,180.04,135.67,N/A,N/A,N/A,0.1179582,22317,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+XLI,SPDR Select Sector Fund - Indus,N/A,N/A,17964953600,24.026257,N/A,1.39,144.51,119.17,N/A,N/A,N/A,0.2183316,2139442,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+DELL,Dell Technologies Inc.,Technology,Computer Hardware,68109967360,15.3009405,6.38,2.12,179.7,86.93,0.899,-0.11867428,-0.11867428,N/A,1122715,95567003648,4592000000,N/A,0.04817,N/A,No Recent News,No Link Available
+INTC,Intel Corporation,Technology,Semiconductors,104451727360,N/A,-4.38,2.24,45.41,18.51,1.018,-0.43716234,-0.43716234,N/A,24825113,53100998656,-18755999744,48.277,-0.01233,-0.17891,No Recent News,No Link Available
+MINO,PIMCO Municipal Income Opportun,N/A,N/A,N/A,N/A,N/A,3.83,51.82,44.12,N/A,N/A,N/A,N/A,3721,N/A,N/A,N/A,N/A,N/A,No Recent News,No Link Available
+NFLX,"Netflix, Inc.",Communication Services,Entertainment,410330693632,48.27686,19.87,N/A,1064.5,542.01,1.377,0.5140523,0.5140523,N/A,2950432,39000965120,8711630848,72.726,0.12720999,0.38435,No Recent News,No Link Available
+PENG,"Penguin Solutions, Inc.",Technology,Information Technology Services,989077248,N/A,-0.52,N/A,29.81,14.87,1.695,-0.24329501,-0.24329501,N/A,300030,1237650944,-27334000,177.115,0.01897,-0.059660003,No Recent News,No Link Available
+SYM,Symbotic Inc.,Industrials,Specialty Industrial Machinery,12715151360,N/A,-0.14,N/A,50.405,17.11,1.853,-0.54014444,-0.54014444,N/A,177294,1914929024,-14130000,6.285,-0.03415,-0.30059,No Recent News,No Link Available
